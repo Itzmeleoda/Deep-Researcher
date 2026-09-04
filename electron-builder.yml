@@ -1,0 +1,14 @@
+appId: com.ultradeepresearch.app
+productName: Ultra-Accurate Deep Research
+directories:
+  output: release
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - package.json
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
